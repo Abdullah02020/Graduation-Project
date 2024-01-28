@@ -27,7 +27,6 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--section-color);
-  height: 100000px;
 }
 
 ul {
@@ -310,7 +309,7 @@ header {
   text-align: center;
   font-size: 40px;
   font-weight: 600;
-  padding-bottom: 35px;
+  padding-bottom: 60px;
 }
 .about .about-items {
   display: grid;
