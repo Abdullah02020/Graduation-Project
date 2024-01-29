@@ -1,7 +1,7 @@
 /* START GLOBAL RULES */
 :root {
   --main-color: #006eb9;
-  --secend-color: #5e6d55;
+  --BG-color: #f5f5f5;
   --font-color: #5e6d55;
   --padding-section: 90px 0 90px 0;
 }
@@ -331,6 +331,7 @@ header {
 /* end about section */
 /* start jobs section */
 .jobs {
+  background-color: var(--BG-color);
 }
 
 .jobs-header {
@@ -354,11 +355,12 @@ header {
 }
 
 .jobs-item {
-  background-color: #d8d8d8;
+  background-color: #f7faf7;
   height: 134px;
   width: 260px;
   border-radius: 9px;
 }
+
 .jobs-star {
   display: flex;
 }
@@ -367,3 +369,94 @@ header {
 }
 
 /* end  jobs section */
+
+/* start sup section */
+.sup {
+  background-color: var(--BG-color);
+}
+.sup .container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.sup-box {
+  width: 734px;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: -3px 4px 8px 4px #00000029;
+}
+.sup-icon {
+  display: flex;
+  padding: 10px 0;
+  color: #1c2e43;
+}
+.sup-icon img {
+  margin-bottom: 20px;
+}
+.sup-tex {
+  padding-right: 10px;
+}
+.sup-tex h1 {
+  font-size: 25px;
+  padding-bottom: 2px;
+}
+.sup-tex p {
+  font-size: 18px;
+}
+
+.buts {
+  display: flex;
+  gap: 70px;
+  margin: 15px 45px;
+}
+.but-2 {
+  border: 2px solid #00a3fe;
+  padding: 10px 20px;
+  border-radius: 31px;
+  background-color: #00a3fe;
+  color: #fff;
+}
+.but-1 {
+  border: 2px solid #00a3fe;
+  padding: 10px 20px;
+  border-radius: 31px;
+}
+.but-1 p {
+  color: #1c2e43;
+}
+/* end sup section */
+/* start int section */
+.int {
+  background-color: var(--BG-color);
+}
+.int-items {
+  display: flex;
+  background-color: #006eb9;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 6px 20px 0 #00000026;
+}
+.int-text {
+  padding: 0 20px;
+}
+.int-text h1 {
+  font-size: 60px;
+  color: #fff;
+}
+.int-text p {
+}
+.int-icon {
+  display: flex;
+  align-items: center;
+}
+.int-icon img {
+}
+.int-icon p {
+}
+.int-img-1 {
+  border-radius: 17px 0px 0px 17px;
+}
+
+/* end int section */
