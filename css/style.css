@@ -391,6 +391,7 @@ header {
 /* start sup section */
 .sup {
   background-color: var(--BG-color);
+  overflow: hidden;
 }
 .sup .container {
   display: flex;
@@ -477,12 +478,120 @@ header {
   display: flex;
   align-items: center;
 }
-.int-icon img {
-}
-.int-icon p {
-}
 .int-img-1 {
   border-radius: 5px 0px 0px 5px;
 }
 
 /* end int section */
+/* start clint section */
+.clint {
+  background-color: var(--BG-color);
+}
+.clint .container {
+  background-image: url(../img/company.svg);
+  width: 1294px;
+  height: 590px;
+  box-shadow: 0px 12px 20px 0 #00000017;
+  position: relative;
+}
+.clint-text {
+}
+.p-header {
+  position: absolute;
+  top: 36px;
+  right: 53px;
+  color: #1c2e43;
+  font-size: 20px;
+}
+.clint-header {
+  position: absolute;
+  top: 100px;
+  right: 53px;
+  color: #1c2e43;
+  font-size: 50px;
+  line-height: 70px;
+}
+.clint-p {
+  position: absolute;
+  top: 270px;
+  right: 53px;
+  color: #1c2e43;
+  font-size: 30px;
+}
+.clint-boxes {
+  display: flex;
+  position: absolute;
+  top: 412px;
+  right: 53px;
+  gap: 18px;
+}
+.clint-box {
+  width: 345px;
+  height: 141px;
+  background-color: var(--main-color);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.clint-box:hover {
+  scale: 1.1;
+}
+
+.clint-box h1 {
+  color: #fff;
+  padding: 10px 25px;
+}
+.clint-box p {
+  color: #fff;
+  padding: 0 25px;
+  font-weight: 600;
+}
+
+/* end clint section */
+
+.cus-boxes {
+  display: flex;
+}
+.cus-box {
+}
+.cus-a {
+  text-align: center;
+  margin-top: 25px;
+  color: #fff;
+}
+.cus-a a {
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: var(--main-color);
+  border-radius: 10px;
+}
+.goin {
+  background-color: var(--BG-color);
+}
+.goin .container {
+  background-color: var(--main-color);
+  height: 242.8px;
+  border-radius: 10px;
+  position: relative;
+}
+.goin-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.goin h1 {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+.goin-a a {
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 10px;
+}
