@@ -1,8 +1,8 @@
 /* START GLOBAL RULES */
 :root {
-  --main-color: #006eb9;
+  --main-color: #348eca;
   --BG-color: #f5f5f5;
-  --font-color: #5e6d55;
+  --font-color: #1c2e43;
   --padding-section: 90px 0 90px 0;
 }
 * {
@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 .pd-y {
-  padding: 60px 0;
+  padding: 60px;
 }
 html {
   scroll-behavior: smooth;
@@ -36,8 +36,8 @@ h1 {
   margin: 0;
 }
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -241,7 +241,7 @@ header nav ul li a:hover {
 .landing .but a {
   display: flex;
   gap: 10px;
-  background-color: var(--main-color);
+  background-color: #00a3fe;
   padding: 10px 20px;
   color: #fff;
   border-radius: 10px;
@@ -341,6 +341,7 @@ header {
 .jobs-header h1 {
   padding-bottom: 8px;
   font-size: 30px;
+  font-weight: 400;
 }
 .jobs-header p {
   color: var(--font-color);
@@ -353,19 +354,36 @@ header {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
 }
+.jobs-items h1 {
+  font-weight: 400;
+  font-size: 18px;
+}
 
 .jobs-item {
   background-color: #f7faf7;
-  height: 134px;
+  height: 120px;
   width: 260px;
   border-radius: 9px;
+  padding: 18px;
+  margin-top: 28px;
 }
 
 .jobs-star {
   display: flex;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 13px;
+}
+.jobs-star p {
+  margin-top: 3px;
+}
+
+.jobs-star img {
+  margin-right: 2px;
 }
 .skill {
   padding-right: 20px;
+  margin-top: 3px;
 }
 
 /* end  jobs section */
@@ -384,13 +402,17 @@ header {
   width: 734px;
   background-color: #fff;
   padding: 20px 30px;
-  border-radius: 10px;
+  border-radius: 2px;
   box-shadow: -3px 4px 8px 4px #00000029;
+}
+.sup-box h1 {
+  font-weight: 490;
 }
 .sup-icon {
   display: flex;
   padding: 10px 0;
   color: #1c2e43;
+  margin-right: 15px;
 }
 .sup-icon img {
   margin-bottom: 20px;
@@ -399,28 +421,29 @@ header {
   padding-right: 10px;
 }
 .sup-tex h1 {
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 2px;
+  margin-top: 8px;
 }
 .sup-tex p {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .buts {
   display: flex;
-  gap: 70px;
-  margin: 15px 45px;
+  gap: 42px;
+  margin: 12px 75px;
 }
 .but-2 {
   border: 2px solid #00a3fe;
-  padding: 10px 20px;
+  padding: 7px 24px;
   border-radius: 31px;
   background-color: #00a3fe;
   color: #fff;
 }
 .but-1 {
   border: 2px solid #00a3fe;
-  padding: 10px 20px;
+  padding: 7px 24px;
   border-radius: 31px;
 }
 .but-1 p {
@@ -433,19 +456,22 @@ header {
 }
 .int-items {
   display: flex;
-  background-color: #006eb9;
+  background-color: #348eca;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 0px 6px 20px 0 #00000026;
 }
 .int-text {
   padding: 0 20px;
 }
 .int-text h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
+  font-weight: 400;
 }
 .int-text p {
+  padding: 10px;
+  color: #fff;
 }
 .int-icon {
   display: flex;
@@ -456,7 +482,7 @@ header {
 .int-icon p {
 }
 .int-img-1 {
-  border-radius: 17px 0px 0px 17px;
+  border-radius: 5px 0px 0px 5px;
 }
 
 /* end int section */
