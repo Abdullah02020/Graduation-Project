@@ -632,7 +632,7 @@ header {
   border-radius: 9px;
   border: 1px solid var(--font-color);
   height: 35px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .sing-in .container .sing input:focus {
   border: px solid var(--main-color);
@@ -654,7 +654,7 @@ header {
 }
 
 .emiles {
-  padding: 30px 0;
+  padding: 15px 0;
 }
 .emiles input {
   width: 100%;
