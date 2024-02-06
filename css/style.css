@@ -112,9 +112,6 @@ h1 {
 
 /* start HEADER SECTION */
 header {
-  z-index: 2;
-  position: absolute;
-  width: 100%;
 }
 
 header nav {
@@ -299,7 +296,7 @@ header {
 
 /* start about section */
 .about {
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 .about .header {
   text-align: center;
@@ -594,6 +591,7 @@ header {
   font-size: 45px;
   font-weight: 400;
   padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 .goin-a a {
   background-color: #fff;
@@ -602,3 +600,89 @@ header {
   border-radius: 10px;
   color: var(--main-color);
 }
+
+/* start sing in page section */
+.IP-P {
+  padding-bottom: 8px;
+}
+.sing-in {
+}
+.sing-in .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sing-in .container img {
+  width: 40%;
+}
+.sing-in .container .sing {
+  width: 100%;
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 160px;
+}
+.sing-in .container .sing h1 {
+  color: var(--main-color);
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+.sing-in .container .sing input {
+  border-radius: 9px;
+  border: 1px solid var(--font-color);
+  height: 35px;
+  padding-right: 5px;
+}
+.sing-in .container .sing input:focus {
+  border: px solid var(--main-color);
+}
+.sing-in .container .sing p {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+.names {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.names .F-name {
+}
+.names .L-name {
+}
+
+.emiles {
+  padding: 30px 0;
+}
+.emiles input {
+  width: 100%;
+}
+.pass {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.sing-in .container .sing button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+  border-radius: 9px;
+  transition: 0.5s;
+}
+.sing-in .container .sing button a {
+  color: var(--main-color);
+  font-weight: 600;
+  transition: 0.5s;
+}
+.sing-in .container .sing button:hover {
+  background-color: var(--main-color);
+}
+.sing-in .container .sing button:hover a {
+  color: #fff;
+}
+/* end  sing in page section */
